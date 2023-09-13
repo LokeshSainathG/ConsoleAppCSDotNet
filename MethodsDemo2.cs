@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lokesh
 {
@@ -16,7 +12,7 @@ namespace Lokesh
             Hi("Lokesh");
             Console.WriteLine("What's your name: ");
             string name = Console.ReadLine();
-            Hi(name);
+            Hi(name);//Passing args.
             Test("Lokesh", 11, "Mech");//Passing arguments to the Test in same order as parameters
             //Test("Sainath", "Civil", 12); 
             //We can change the arguments order, that syntax is known as named args.
@@ -30,10 +26,10 @@ namespace Lokesh
         {
             Console.WriteLine("Hi "+name);
         }
+        //A method can take any no.of args.
         static void Test(string name, int age, string course)
         {
             Console.WriteLine($"Hello {name} you are selected for {course} course at the age of {age}");
         }
-
     }
 }

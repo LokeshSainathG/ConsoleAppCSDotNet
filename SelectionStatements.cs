@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lokesh
 {
@@ -29,7 +25,7 @@ namespace Lokesh
             {
                 // tot, avg is called as block scope (block variables)
                 int tot = m1 + m2 + m3 + m4 + m5;
-                float avg = (float)tot / 5;// type cast tot as float
+                float avg = (float)tot / 5;// type cast tot as float. Otherwise, you will get Integer value only. When you are doing division, either Numerator/ Denominator should be float, otherwise result will be integer.
                 Console.WriteLine($"Total = {tot} \nAverage {avg}");//String Interpolation to print multiple expressions as single string "".
                 if (avg >= 80)//Nested if - if inside another if
                     Console.WriteLine("Grade = A");
@@ -39,7 +35,7 @@ namespace Lokesh
                 else
                     if (avg < 60 && avg > 40)
                     Console.WriteLine("Grade = C");
-                else
+                else 
                     Console.WriteLine("Grade = D");
             }
             else
@@ -59,8 +55,6 @@ namespace Lokesh
             short s = (short)a;//2 bytes of variable = 4 bytes of variable value. compiler can cast lower variable to higher variable. 
             //To specify explicit type casting: specify the data type left hand side of variable. converting int variable into short type.
             //Explicit type casting useful in many scenarios. Like 2 integers division is an int, which is not accurate. We can type cast into (float) to get actual decimal value.
-
-
         }
     }
 }

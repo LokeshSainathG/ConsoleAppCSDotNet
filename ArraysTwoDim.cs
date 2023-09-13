@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lokesh
 {
@@ -11,7 +7,7 @@ namespace Lokesh
         static void Main()
         {
             //In 1D, we represent only no.of columns. In 2D, we represent both no.of columns and no.of Rows.
-            int[,] arr;//Specify , then it is 2D Array.[IMP] In C/ C++/ Java, we specify arr[][] for 2D array. But this notation is used for Jaged Array. 
+            int[,] arr;//Specify ',' then it is 2D Array.[IMP] In C/ C++/ Java, we specify arr[][] for 2D array. But this notation is used for Jaged Array.
             Console.WriteLine("Enter no.of Rows, Columns: ");
             int r = Convert.ToInt32(Console.ReadLine());
             int c = Convert.ToInt32(Console.ReadLine());

@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lokesh.MethodsDemo5_ReturnTypes_OUT</StartupObject>
+    <StartupObject>Lokesh.ConstantsDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,7 +52,6 @@
     <Compile Include="ArraysJagged.cs" />
     <Compile Include="Assignment1.cs" />
     <Compile Include="BoxingDemo.cs" />
-    <Compile Include="CollectionsDemo.cs" />
     <Compile Include="ConstantsDemo.cs" />
     <Compile Include="EnumDemo.cs" />
     <Compile Include="JumpStats.cs" />
@@ -68,7 +68,8 @@
     <Compile Include="StringBuilderDemo.cs" />
     <Compile Include="SwitchDemo.cs" />
     <Compile Include="Third.cs" />
-    <Compile Include="Var_Dynamics_demo.cs" />
+    <Compile Include="ValueTypesReferenceTypes.cs" />
+    <Compile Include="Var_DynamicDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
