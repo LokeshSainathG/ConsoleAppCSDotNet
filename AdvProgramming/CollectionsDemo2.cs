@@ -9,6 +9,7 @@ namespace AdvProgramming
     {
         static void Main()
         {
+            //ArrayList, Array Performance:
             //Requirement of ArrayList over Array:
             //Should go for ArrayList only when your requirement is to inserting/ deleting elements in middle positions and not fixed size. Otherwise use Array only.
 
@@ -35,7 +36,7 @@ namespace AdvProgramming
                 //arr[i] = 123567;
             watch1.Stop();
             Console.WriteLine(watch1.Elapsed.TotalSeconds);//3.06E-05
-            //ArrayList took more time than Array, because it took the data in the form of object and then convert into respective type using Boxing& Un-boxing. For each element boxing & unboxing is required then only it store in ArrayList. Same happens with HashTable, Stack, Queue. So, if the data is more it will lower the performance bcs of Boxing& un-boxing. 
+            //ArrayList took more time than Array, because it took the data in the form of object and then convert into respective type using Boxing& Un-boxing. For each element boxing & unboxing is required then only it stores in ArrayList. Same happens with HashTable, Stack, Queue. So, if the data is more it will lower the performance bcs of Boxing& un-boxing. 
             //Incase of Arrays, in the definition itself we are defining the type of data. So, boxing and Unboxing is not required. Performance wise Arrays are good than ArrayList.
             //Maintanance of ArrayList is better than Array. 
             //If you are dealing with huge data and continuous modifications then go with Arrays.

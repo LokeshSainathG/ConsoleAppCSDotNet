@@ -8,7 +8,7 @@ namespace AdvProgramming
     {
         static void Main()
         {
-            //HashTable also has methods like ArrayList has except few.
+            //HashTable also has methods like ArrayList has, except few.
 
             //ArrayList vs Hashtable:
             /*ArrayList is used to hold the data in the form of Object. HashTable also hold the data in form of Obj [Key-Value pair].

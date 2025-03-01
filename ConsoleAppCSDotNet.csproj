@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lokesh.ConstantsDemo</StartupObject>
+    <StartupObject>Lokesh.StringBuilderDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

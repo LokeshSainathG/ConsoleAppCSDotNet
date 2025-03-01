@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CollectionsDemo.cs" />
+    <Compile Include="CollectionsDemo1.cs" />
     <Compile Include="CollectionsDemo2.cs" />
     <Compile Include="CollectionsDemo3.cs" />
     <Compile Include="HashTableDemo.cs" />

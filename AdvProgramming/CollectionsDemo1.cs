@@ -5,7 +5,7 @@ using System.Collections;//Collections
 
 namespace AdvProgramming
 {
-    class CollectionsDemo
+    class CollectionsDemo1
     {
         static void Main()
         {

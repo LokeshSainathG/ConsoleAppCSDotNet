@@ -49,7 +49,7 @@ namespace Lokesh
 
             ///////////////////////////////////////////////////////////////////////////////
             //return;
-            //['return' statement ends a function and passes a value to the caller.]
+            //['return' statement terminates or ends callee function execution with or without passing a value to the caller method.]
             //For void functions, which doesn't compute a value, you can use 'return' stat without expression:
             return;//Like this. Since Main() is a void function. You can even omit also for void functions.
             //All the stats after return won't executed, so make sure the condition properly.

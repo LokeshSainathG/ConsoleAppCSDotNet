@@ -46,7 +46,16 @@ namespace Lokesh
             Since you can modify its value without creating a new object each time the StringBuilder performs faster than the string if you modify a string value multiple times
             */
 
-            //Logs:
+
+            StringBuilder sb2 = new StringBuilder("OldStringOldWay");
+            int index = sb2.ToString().IndexOf("Old");
+
+            sb2.Remove(index, "Old".Length);
+            sb2.Insert(index, "New");
+            Console.WriteLine(sb2);
+
+
+            //Adding Logs:
             StringBuilder sb3 = new StringBuilder();
             sb.Append("log something");
             // flush every 20 seconds as you do it
